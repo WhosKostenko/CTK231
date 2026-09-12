@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+    background-color: black;
+}
+
+h2 {
+    color: blue;
+    background-color: yellow;
+}
+
+p {
+    color: black;
+}
+
+.specialp {
+    color: blue;
+    background-color: red;
+}
+
+#specialID {
+    color: green;
+    background-color: #ffff33f9;
+}
+
+.orangebg {
+    background-color: orange;
+}
+
+.spanstyle {
+    color: blue;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+footer {
+    background-color: green;
+}
