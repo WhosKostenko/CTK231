@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("background.jpg");
+}
+
+h1, h2, h3, h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+p {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+img {
+    border: 8px solid black;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.specialp {
+    color: blue;
+    background-color: red;
+}
+
+#specialID {
+    color: orange;
+    background-color: #ffff33f9;
+}
+
+.orangebg {
+    background-color: orange;
+}
+
+.spanstyle {
+    color: blue;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: yellow;
+}
+
+footer {
+    background-color: green;
+}
