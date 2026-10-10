@@ -1,0 +1,251 @@
+/*
+*temp?
+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 20px 10px;
+background-color: gray;
+color: #222;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main website border */
+#page {
+width: 960px;
+max-width: 100%;
+margin: 0 auto;
+padding: 6px;
+background-color: #003d79;
+}
+
+/* Header */
+header {
+background: linear-gradient(to bottom, #168fe0, #0052a4);
+padding: 18px 20px 0;
+border: 2px solid #003d79;
+}
+
+header h1 {
+margin: 0 0 18px;
+font-size: 28px;
+font-weight: normal;
+font-style: italic;
+}
+
+header h1 a {
+color: #9ed8ff;
+text-decoration: none;
+}
+
+header h1 a {
+color: white;
+}
+
+/* Navigation */
+nav {
+display: flex;
+background: linear-gradient(to bottom, #087ac8, #004a96);
+border: 1px solid #003d79;
+}
+
+nav a {
+flex: 1;
+padding: 10px 14px;
+border-right: 2px solid #003d79;
+color: #9ed8ff;
+font-size: 14px;
+text-decoration: none;
+}
+
+nav a {
+border-right: none;
+}
+
+nav a,
+nav a.active {
+color: white;
+font-weight: bold;
+}
+
+nav a {
+background: linear-gradient(to bottom, #279be8, #0066b8);
+}
+
+/* Main content */
+main {
+background-color: white;
+min-height: 420px;
+}
+
+/* Footer */
+footer {
+min-height: 82px;
+padding: 12px;
+background-color: #d51b00;
+border: 2px solid #003d79;
+}
+
+footer img {
+display: block;
+width: 260px;
+max-width: 100%;
+height: auto;
+}
+
+/* Headings and paragraphs */
+h2 {
+margin: 0 0 12px;
+padding-bottom: 5px;
+border-bottom: 2px solid #315da0;
+color: #244d87;
+font-size: 20px;
+font-weight: normal;
+}
+
+p {
+margin: 0 0 12px;
+font-family: Georgia, "Times New Roman", serif;
+font-size: 14px;
+line-height: 1.2;
+}
+
+.article-image {
+width: 42%;
+max-width: 100%;
+height: auto;
+float: left;
+margin: 0 14px 8px 0;
+border: 1px solid #777;
+}
+
+.article p strong,
+.gallery-item p strong {
+color: #d51b00;
+}
+
+/* Welcome page */
+.welcome-layout {
+display: flex;
+min-height: 420px;
+}
+
+.welcome-sidebar {
+width: 33%;
+padding: 16px;
+background-color: #add8e6;
+}
+
+.welcome-sidebar p {
+font-weight: bold;
+text-align: justify;
+}
+
+.welcome-article {
+width: 67%;
+padding: 16px;
+}
+
+/* About page */
+.about-layout {
+display: flex;
+min-height: 420px;
+}
+
+.about-article {
+width: 68%;
+padding: 16px;
+}
+
+.about-sidebar {
+width: 32%;
+padding: 16px;
+background-color: #add8e6;
+}
+
+.about-sidebar p {
+font-weight: bold;
+text-align: justify;
+}
+
+/* Gallery page */
+.gallery-layout {
+display: flex;
+gap: 14px;
+padding: 16px;
+}
+
+.gallery-item {
+flex: 1;
+min-width: 0;
+}
+
+.gallery-item h2 {
+font-size: 18px;
+}
+
+.gallery-item img {
+display: block;
+width: 100%;
+height: 310px;
+object-fit: cover;
+margin-bottom: 12px;
+}
+
+.gallery-item p {
+font-size: 12px;
+}
+
+/* Smaller screens */
+@media (max-width: 650px) {
+body {
+padding: 8px;
+}
+
+#page {
+    padding: 4px;
+    border-width: 5px;
+}
+
+header {
+    padding: 14px 8px 0;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+nav a {
+    padding: 9px 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.welcome-layout,
+.about-layout,
+.gallery-layout {
+    display: block;
+}
+
+.welcome-sidebar,
+.welcome-article,
+.about-article,
+.about-sidebar {
+    width: 100%;
+}
+
+.gallery-item {
+    margin-bottom: 22px;
+}
+
+.gallery-item img {
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    object-position: left;
+}
+
+}
